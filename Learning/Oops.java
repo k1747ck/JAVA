@@ -57,27 +57,52 @@
 //         System.out.println(str);
 //     }
 // }
-class Calculator
-{
-    public int add(int n1, int n2, int n3)
-    {
-        return n1 + n2 + n3;
-    }
-    public int add1(int n1,int n2)
-    {
-        return n1 + n2;
-    }
-    public int add(double n1,int n2)
-    {
-        return n1 + n2;
-    }
-}
+// class Calculator
+// {
+//     public int add(int n1, int n2, int n3)
+//     {
+//         return n1 + n2 + n3;
+//     }
+//     public int add1(int n1,int n2)
+//     {
+//         return n1 + n2;
+//     }
+//     public int add(double n1,int n2)
+//     {
+//         return n1 + n2;
+//     }
+// }
 
-public class Oops
-{
-    public static void main(String[] args) {
-        Calculator obj = new Calculator();
-        int r1 = obj.add1(3, 4);
-        System.out.println(r1);
-    }
-}
+// public class Oops
+// {
+//     public static void main(String[] args) {
+//         Calculator obj = new Calculator();
+//         int r1 = obj.add1(3, 4);
+//         System.out.println(r1);
+//     }
+// }
+
+
+
+// // Stack and Heap in java 
+// class Calculator
+// {
+//     int num;
+//     public int add(int n1, int n2) {
+//         return n1 + n2;
+//     }
+// }
+// public class Oops {
+//     public static void main(String[] args) {
+//         int data = 10;
+//         Calculator obj = new Calculator();
+//         int r1 = obj.add(3,4);
+//         System.out.println(r1);
+//     }
+
+    
+// }
+
+// Need of an Array in Java
+// to store multiple value in single (space)go also to access easily
+
