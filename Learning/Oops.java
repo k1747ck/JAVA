@@ -106,7 +106,7 @@
 // Need of an Array in Java
 // to store multiple value in single (space)go also to access easily
 
-
+// Multi dimentionnal array learning
 public class Oops
 {
     public static void main(String[] args) {
