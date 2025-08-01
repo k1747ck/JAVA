@@ -6,6 +6,5 @@ public class Calculator {
 
         System.out.println("Enter first value:");
         int a = sc.nextInt();
-        
     }
 }
