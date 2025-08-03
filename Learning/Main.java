@@ -101,7 +101,21 @@
 
 //  // Relational Operators
 
-public class Main {
+// public class Main {
 
-    
-}
+//     public static void main(String[] args) {
+        
+//         int a = 10;
+//         int b = 10;
+
+//         System.out.println("is equal to = " + (a == b) );
+//         System.out.println("less than = " + (a < b) );
+//         System.out.println("greater than = " + (a > b ));
+//         System.out.println("greater than equal to = " + (a >= b) );
+//         System.out.println("lesser than equal to = " + (a <= b));
+//         System.out.println("not equal to = " + (a != b ));
+//         System.out.println("compare = " + (a == b) );
+
+//     }
+// }
+
