@@ -107,13 +107,135 @@
 // to store multiple value in single (space)go also to access easily
 
 
+// public class Oops
+// {
+//     public static void main(String[] args) 
+//     {
+//         int nums[][] = new int[3][4];
+        
+
+//         for (int i=0;i<3;i++)
+//         {
+//             for(int j=0;j<4;j++)
+//             {
+//                nums[i][j] = (int)(Math.random()*10);
+                
+//             }
+        
+//         }
+
+
+//         for (int i=0;i<4;i++)
+//         {
+//             for(int j=0;j<4;j++)
+//             {
+//                 System.out.print( nums [i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+
+//         for (int n[]: nums)
+//         {
+//             for(int m:n)
+//             {
+//                 System.out.print(m + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+// Jagged and 3D array
+
+// public class Oops
+// {
+//     public static void main(String[] args) 
+//     {
+//         int nums[][] = new int[3][]; // jagged 
+
+//         nums[0]= new int[3];
+//         nums[1]= new int[4];
+//         nums[2]= new int[2];
+        
+
+//         for (int i=0;i<nums[i].length;i++)
+//         {
+//             for(int j=0;j<nums[i].length;j++)
+//             {
+//                nums[i][j] = (int)(Math.random()*10);
+                
+//             }
+        
+//         }
+
+
+//         for (int i=0;i<4;i++)
+//         {
+//             for(int j=0;j<4;j++)
+//             {
+//                 System.out.print( nums [i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+
+//         for (int n[]: nums)
+//         {
+//             for(int m:n)
+//             {
+//                 System.out.print(m + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// // 3 D array
 public class Oops
 {
-    public static void main(String[] args) {
-        int nums[] = new int[4];
+    public static void main(String[] args) 
+    {
+        int nums[][][] = new int[3][4][5]; // 3 dimentional array
 
-        // nums[1] = 6;
+       
+        
 
-        System.out.println(nums[1]);
+        for (int i=0;i<nums[i].length;i++)
+        {
+            for(int j=0;j<nums[i].length;j++)
+            {
+                for(int k=0;k<nums[i].length;k++)
+                {
+                 nums[i][j][k] = (int)(Math.random()*10);
+                }
+                
+            }
+        
+        }
+
+
+        for (int i=0;i<4;i++)
+        {
+            for(int j=0;j<4;j++)
+            {
+                 for(int k=0;k<nums[i].length;k++)
+                 {System.out.println( nums[i][j][k] + " ");
+            }
+            System.out.println();
+            }
+            System.out.println();
+        }
+
+        for (int n[][]: nums)
+        {
+            for (int m[]: n)
+            {
+                for(int k: m)
+                {
+                    System.out.print(k + " ");
+                }
+            System.out.println();
+            }
+        }
     }
 }
