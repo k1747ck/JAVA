@@ -36,15 +36,15 @@ public class CafeInventory {
         if (total == 13) {
             System.out.println("Recipe check: 5(1)+3(2)+2(1) = " + checkSandwich);
             if (checkSandwich == total)
-                System.out.println("Sandwich data matches ✅");
+                System.out.println("Sandwich data matches ");
             else
-                System.out.println("Sandwich data does NOT match ❌");
+                System.out.println("Sandwich data does NOT match ");
         } else {
             System.out.println("Recipe check: 5(1)+3(1)+2(2) = " + checkJuice);
             if (checkJuice == total)
-                System.out.println("Juice data matches ✅");
+                System.out.println("Juice data matches ");
             else
-                System.out.println("Juice data does NOT match ❌");
+                System.out.println("Juice data does NOT match ");
         }
     }
 }
