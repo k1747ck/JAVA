@@ -17,8 +17,9 @@ class Student
     }
 
     public void printInfo(String name, int age){
-        System.out.println(name + " ", age );
-    }
+    System.out.println(name + " " + age);
+}
+
 }
 
 public class Polymorphism {

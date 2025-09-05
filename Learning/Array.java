@@ -45,6 +45,7 @@ public class Array {
         nums [1]= 8;
         nums [2]= 3;
         nums [3]= 9;
-        for(int )
+        
+        
     }
 }
